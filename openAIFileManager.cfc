@@ -1,7 +1,7 @@
 /*
 * @name: openAIFileManager
 * @hint: Handles working with files and vector stores in the OpenAI API
-* @author: Brian Klaas (bklaas@jhu.edu)
+* @author: Brian Klaas 
 * @created: 06/20/2024
 */
 
@@ -23,7 +23,7 @@ component
 	* @name:	uploadFile
 	* @hint:	Uploads a file to the OpenAI file store
 	* @returns:	Struct of information about the uploaded file, including the fileID
-	* @author:  Brian Klaas (bklaas@jhu.edu)
+	* @author:  Brian Klaas 
 	* @created: 06/21/2024
 	*/
     public struct function uploadFile(
@@ -51,7 +51,7 @@ component
 	* @name:	createVectorStore
 	* @hint:	Creates a vector store in the OpenAI file store
 	* @returns:	Struct of information about newly created vector store, including the vectorStoreID
-	* @author:  Brian Klaas (bklaas@jhu.edu)
+	* @author:  Brian Klaas 
 	* @created: 06/21/2024
 	*/
     public struct function createVectorStore() {
@@ -81,7 +81,7 @@ component
 	* @name:	addFileToVectorStore
 	* @hint:	Adds a file uploaded to OpenAI to a vector store
 	* @returns:	Struct of information about the request
-	* @author:  Brian Klaas (bklaas@jhu.edu)
+	* @author:  Brian Klaas 
 	* @created: 06/22/2024
 	*/
     public struct function addFileToVectorStore(
@@ -110,7 +110,7 @@ component
 	* @name:	hasFileBeenProcessed
 	* @hint:	Checks to see if the specified file in the specified vector store has been processed
 	* @returns:	Boolean indicating if the files was processed
-	* @author:  Brian Klaas (bklaas@jhu.edu)
+	* @author:  Brian Klaas 
 	* @created: 06/22/2024
 	*/
     public boolean function hasFileBeenProcessed(
@@ -132,7 +132,7 @@ component
 	* @name:	deleteFile
 	* @hint:	Deletes a file uploaded to OpenAI
 	* @returns:	Struct of information about the request
-	* @author:  Brian Klaas (bklaas@jhu.edu)
+	* @author:  Brian Klaas 
 	* @created: 06/25/2024
 	*/
     public struct function deleteFile(
@@ -157,7 +157,7 @@ component
 	* @name:	deleteVectorStore
 	* @hint:	Deletes a vector store from OpenAI
 	* @returns:	Struct of information about the request
-	* @author:  Brian Klaas (bklaas@jhu.edu)
+	* @author:  Brian Klaas 
 	* @created: 06/25/2024
 	*/
     public struct function deleteVectorStore(

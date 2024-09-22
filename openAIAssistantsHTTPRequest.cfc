@@ -1,7 +1,7 @@
 /*
 * @name: openAIAssistantsHTTPRequest
 * @hint: Handles generating HTTP requests to the OpenAI API
-* @author: Brian Klaas (bklaas@jhu.edu)
+* @author: Brian Klaas 
 * @created: 06/06/2024
 */
 
@@ -23,7 +23,7 @@ component
 	* @name:	makeOpenAIAssistantsAPIRequest
 	* @hint:	Wrapper for making requests to the OpenAI Assistants API via https
 	* @returns:	A JSON result string
-	* @author:  Brian Klaas (bklaas@jhu.edu)
+	* @author:  Brian Klaas 
 	* @created: 06/06/2024
 	*/
     public struct function makeOpenAIAssistantsAPIRequest(

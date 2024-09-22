@@ -1,7 +1,7 @@
 /*
 * @name: openAIThreadRunManager
 * @hint: Handles working with threads and runs in the OpenAI API
-* @author: Brian Klaas (bklaas@jhu.edu)
+* @author: Brian Klaas 
 * @created: 06/24/2024
 */
 
@@ -23,7 +23,7 @@ component
 	* @name:	createThread
 	* @hint:	Creates a thread in the OpenAI API
 	* @returns:	Struct of information about the new thread, including the threadID
-	* @author:  Brian Klaas (bklaas@jhu.edu)
+	* @author:  Brian Klaas 
 	* @created: 06/24/2024
 	*/
     public struct function createThread(
@@ -65,7 +65,7 @@ component
 	* @name:	createMessageInThread
 	* @hint:	Creates a message in an exsiting thread in the OpenAI API
 	* @returns:	Struct of information about the new message, including the messageID
-	* @author:  Brian Klaas (bklaas@jhu.edu)
+	* @author:  Brian Klaas 
 	* @created: 06/24/2024
 	*/
     public struct function createMessageInThread(
@@ -98,7 +98,7 @@ component
 	* @name:	createRun
 	* @hint:	Creates a run in an exsiting thread in the OpenAI API
 	* @returns:	Struct of information about the new run, including the runID
-	* @author:  Brian Klaas (bklaas@jhu.edu)
+	* @author:  Brian Klaas 
 	* @created: 06/24/2024
 	*/
     public struct function createRun(
@@ -129,7 +129,7 @@ component
 	* @name:	isRunComplete
 	* @hint:	Checks to see if the specified run has finished
 	* @returns:	Value indicating if the run is complete: 0 = no, 1 = yes, 2 = failed
-	* @author:  Brian Klaas (bklaas@jhu.edu)
+	* @author:  Brian Klaas 
 	* @created: 06/24/2024
 	*/
     public numeric function isRunComplete(
@@ -153,7 +153,7 @@ component
 	* @name:	getRunContent
 	* @hint:	Gets the contnet for a completed run on an exsiting thread in the OpenAI API
 	* @returns:	Struct of information about the new run, including the generated content
-	* @author:  Brian Klaas (bklaas@jhu.edu)
+	* @author:  Brian Klaas 
 	* @created: 06/24/2024
 	*/
     public struct function getRunContent(
